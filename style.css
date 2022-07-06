@@ -10,10 +10,15 @@ body{
     background-position: cover;
     align-items: center;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 80px;
 }
 h1{
     font-size: 70px;
+    font-weight: bold;
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
 }
 p{
     font-size: 20px;
@@ -23,14 +28,16 @@ p{
 .link-button{
     text-decoration: none;
     background-color: rgb(223, 220, 50);
-    padding: 20px ;
+    padding: 30px ;
     border-radius: 10px;
     color: black;
     background-image: linear-gradient(rgb(35, 236, 17) rgb(165, 132, 42));
     font-weight: 700;
-   
+    justify-content: center;
+    font-size: 30px; 
 
 }
+
 
 
 .content{
@@ -46,15 +53,13 @@ p{
 
 }
 .content2{
-    /* width: 100%;
-    height: 100%;
-    padding: 40px; */
+   
+    
     align-items: center;
     display: flex;
     flex-direction: column;
-    /* flex-direction: column;
-    align-items: center;
-    color: white; */
+    justify-content: center;
+  
 }
 .donation{
     width: 100%;
@@ -66,6 +71,7 @@ p{
     margin: 150px auto;
     
   }
+ 
   .donation input{
     width: 100px;
   height: 70px;
@@ -76,11 +82,128 @@ p{
   }
   form{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    
   }
   .underline{
     text-decoration: underline;
     text-align: center;
   }
+  .plan{
+    margin: 10px;
+    text-align: center;
+    padding: 10px 15px;
+
+  }
+.family{
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 10px 10px 16px gray;
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+.content3{
+    margin: 70px;
+    align-items: center;
+    
+    
+}
+
+.conten3-family{
+    display: flex;
+    justify-content: space-evenly;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+#food-pic{
+    background-color: aquamarine;
+}
+#shelter-pic{
+    background-color: coral;
+}
+#education-pic{
+    background-color: goldenrod;
+}
+.family{
+background-color: darkgrey;
+}
+.update{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    /* margin: 30px 30px;
+    padding: 20px; */
+    justify-content: center;
+   margin-top: 80px;
+}
+.form2{
+    width: 40%;
+    height: 10%;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    align-items: center;
+    
+    margin-left: 450px;
+    padding: 80px;
+    background-color: rgb(166, 245, 248);
+    align-items: center;
+    
+   
+
+
+}
+
+#mail{
+    align-items: center;
+    margin-left: 180px;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+#sub{
+    align-items: center;
+    padding: 10px;
+    background-color: red;
+    font-size: 20px;
+}
+.girl{
+    display: flex;
+    margin: 50px;
+    padding: 20px;
+    /* border: 1px solid gray; */
+}
+.girl-img{
+    padding: 20px;
+}
+.need{
+    padding: 40px;
+    margin-left: 40px;
+}
+.contact{
+    text-align: center;
+    background-color: bisque;
+    margin: 20px;
+    padding: 40px;
+    color: rgb(207, 34, 34);
+}
+
+footer{
+    width: 100vw;
+    height: 100%;
+    background-color: black;
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+    
+    font-family: 'Josefin Sans', sans-serif;
+   font-weight: bold;
+   font-size: 20px;
+   color: crimson;
+
+}
 
